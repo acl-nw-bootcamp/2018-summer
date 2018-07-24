@@ -5,7 +5,7 @@
 
 *Lead Instructor*: Mark Fitzgerald
 
-*TA*: Yuval Allweil
+*TA*: Henry Oliveira
 
 ## Week 1 - Daily Plans
 ### Class 01
