@@ -2,15 +2,15 @@
 
 # Reading Reminder
 
-* ["Structure" (HTML & CSS, Ch. 1)](https://canvas.instructure.com/courses/1274842/modules/items/15743552)
-* ["Text” (HTML & CSS, Ch.2)](https://canvas.instructure.com/courses/1274842/modules/items/15743553)
-* ["Process & Design" (HTML & CSS, Ch. 18)](https://canvas.instructure.com/courses/1274842/modules/items/15743554)
-* ["The ABC of Programming" (JavaScript, Ch.1 )](https://canvas.instructure.com/courses/1274842/modules/items/15743555)
+* ["Structure" (HTML & CSS, Ch. 1)](https://canvas.instructure.com/courses/1370431/modules/items/18248072)
+* ["Text” (HTML & CSS, Ch.2)](https://canvas.instructure.com/courses/1370431/modules/items/18248073)
+* ["Process & Design" (HTML & CSS, Ch. 18)](https://canvas.instructure.com/courses/1370431/modules/items/18248074)
+* ["The ABC of Programming" (JavaScript, Ch.1 )](https://canvas.instructure.com/courses/1370431/modules/items/18248075)
 
 # Assignment for Class
 In class, we wrote a program that accepted user input and, based on that input, displayed a message back to the user. Your assignment in lab today involves a variety of different activities related to that.
 
-[Submit Your Work](https://canvas.instructure.com/courses/1274842/modules/items/15743556)
+[Submit Your Work](https://canvas.instructure.com/courses/1370431/modules/items/18248076)
 
 ## User Stories (MVP)
  - As a developer, I want to use basic markup to structure my index.html page, so the layout is in the order of assembly I prefer
