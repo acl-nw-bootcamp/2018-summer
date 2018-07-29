@@ -1,20 +1,20 @@
 # Week 1, Class 3
-[**Week 1 Feedback**](https://canvas.instructure.com/courses/1274842/modules/items/15743566)
+[**Week 1 Feedback**](https://canvas.instructure.com/courses/1370431/modules/items/18248086)
 *You will receive an email from Code Fellows with a link to the survey. Once complete, please complete this assignment as well.*
 
 # Reading Reminder
-* [“Decisions and Loops” (JavaScript, Ch. 4)](https://canvas.instructure.com/courses/1274842/modules/items/15743563)
-* ["Lists" (HTML & CSS, Ch. 3)](https://canvas.instructure.com/courses/1274842/modules/items/15743564)
-* ["Tables" (HTML & CSS, Ch. 6)](https://canvas.instructure.com/courses/1274842/modules/items/15743565)
+* [“Decisions and Loops” (JavaScript, Ch. 4)](https://canvas.instructure.com/courses/1370431/modules/items/18248083)
+* ["Lists" (HTML & CSS, Ch. 3)](https://canvas.instructure.com/courses/1370431/modules/items/18248084)
+* ["Tables" (HTML & CSS, Ch. 6)](https://canvas.instructure.com/courses/1370431/modules/items/18248085)
 
 # Assignment for Class
 Today we'll be extending/refining the guessing game and working from a GitHub branch.
 
 In your guessing-game directory, your HTML should be in a file called index.html, your JS in a file called game.js, and you should have a README.md file as well.
 
-[Submit Your Work](https://canvas.instructure.com/courses/1274842/modules/items/15743567)
+[Submit Your Work](https://canvas.instructure.com/courses/1370431/modules/items/18248087)
 
-[Verify Your Understanding with a Quiz](https://canvas.instructure.com/courses/1274842/modules/items/15743568)
+[Verify Your Understanding with a Quiz](https://canvas.instructure.com/courses/1370431/modules/items/18248088)
 
 ## User Stories (MVP)
  - As a developer, I want to work on a new branch in my repo, so I do not effect the state of my Master branch

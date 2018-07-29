@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      var generic = "Hello World!";
+
+      function sayHello(username) {
+        if ((username == undefined) || (username == "")) {
+          alert(generic);
+        } else {
+          alert("Hello "+username);
+        }
+      }
+
+      function getUserName() {
+        var username = prompt("Please tell me your name:");
+        return username;
+      }
+
+      function addTwoNumbers(x, y) {
+        return x + y;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript Functions</h1>
+    <input type="button" value="Say Hello" onclick="sayHello()"><br>
+    <input type="button" value="Get User Name" onclick="getUserName()"><br>
+    <input type="button" value="Say Hello to User" onclick="sayHello(getUserName())"><br>
+  </body>
+</html>
