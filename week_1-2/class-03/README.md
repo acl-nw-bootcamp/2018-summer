@@ -32,6 +32,7 @@ In your guessing-game directory, your HTML should be in a file called index.html
 
 ## User Stories (Stretch)
 - As a developer, I want to add a fifth question to my game, which prompts the user to guess my number (hint: using a while loop) until they have guessed correctly
+- As a developer, I want to my questions to show after the page is displayed, specifically when a user clicks one or more buttons.
 
 ## Helpful Resources
 - [**Supporting Information**](support.md)
