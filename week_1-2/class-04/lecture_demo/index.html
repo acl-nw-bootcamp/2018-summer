@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Optima, Arial, sans-serif;
+        font-size: 18px;
+        color: rgb(97, 113, 55);
+      }
+
+      .highlight {
+        /* background-color: #FFFFAF; */
+        background-color: rgba(255, 255, 0, 0.5);
+        color: red;
+        font-weight: bold;
+      }
+
+      .large {
+        font-size: 1.5em;
+      }
+    </style>
+    <script type="text/javascript">
+      // function showCorrect() {
+      //   // alert("Correct!");
+      //   var correctContainer = document.getElementById("correct-container");
+      //   correctContainer.innerHTML += '<span class="large">Correct!</span>';
+      // }
+      //
+      // function wrong() {
+      //   // alert("Wrong!");
+      //   var wrongContainer = document.getElementById("wrong");
+      //   wrongContainer.innerHTML = "Wrong!";
+      // }
+
+      function showAnswer(answer) {
+        var container = document.getElementById(answer+"-container");
+        container.innerHTML += '<span class="large">' + answer + '!</span>';
+      }
+    </script>
+  </head>
+  <body>
+    <h1>CSS Example</h1>
+    <p>
+    Communication is not possible. <span class="highlight" style="font-family: Courier;">The shuttle has no power.</span> Using the gravitational pull of a star to slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five planetary systems. Assemble a team. Look at records of the Drema quadrant. Would these scans detect artificial transmissions as well as natural signals?
+    </p>
+    <input type="button" value="Correct" onclick="showAnswer('correct')">
+    <p id="correct-container">Answer goes here.</p>
+    <p>
+    We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. <span class="highlight">This planet's interior heat provides an abundance of geothermal energy.</span> We need to neutralize the homing signal.
+    </p>
+    <input type="button" value="Wrong" onclick="showAnswer('wrong')">
+    <p id="wrong-container"></p>
+    <p class="highlight large">
+    Exceeding reaction chamber thermal limit. We have begun power-supply calibration. Force fields have been established on all turbo lifts and crawlways. Computer, run a level-two diagnostic on warp-drive systems. Antimatter containment positive. Warp drive within normal parameters. I read an ion trail characteristic of a freighter escape pod. The bomb had a molecular-decay detonator. Detecting some unusual fluctuations in subspace frequencies.
+    </p>
+
+    <p>
+    Sensors indicate human life forms 30 meters below the planet's surface. Stellar flares are increasing in magnitude and frequency. Set course for Rhomboid Dronegar 006, warp seven. There's no evidence of an advanced communication network. Total guidance system failure, with less than 24 hours' reserve power. Shield effectiveness has been reduced 12 percent. We have covered the area in a spherical pattern which a ship without warp drive could cross in the given time.
+    </p>
+
+  </body>
+</html>
