@@ -1,0 +1,18 @@
+table {
+  width: 500px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  border-bottom: 1px solid black;
+  height: 2em;
+}
+
+tr:hover {
+  background-color: #ccFFcc;
+}
