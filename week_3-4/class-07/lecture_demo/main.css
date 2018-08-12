@@ -1,0 +1,50 @@
+body {
+  font-family: Optima, Arial, sans-serif;
+}
+
+nav {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+section {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+
+aside {
+  display: inline-block;
+  width: 18%;
+  vertical-align: top;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ffffaa;
+}
+
+.sub-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.sub-menu a {
+  padding-left: 1.5em;
+}
+
+nav a:hover + .sub-menu, .sub-menu:hover {
+  display: block;
+}
