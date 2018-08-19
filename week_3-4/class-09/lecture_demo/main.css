@@ -1,0 +1,70 @@
+header, nav, section {
+  border: 1px solid black;
+}
+
+nav {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+  display: inline-block;
+  width: calc(100% - 300px - 0.5em);
+  vertical-align: top;
+  height: 500px;
+}
+
+.positioned-logo {
+  width: 100px;
+}
+
+.first {
+  color: black;
+  font-size: 20px;
+}
+
+section p {
+  font-family: Optima, sans-serif;
+  color: #666666;
+  font-size: 18px;
+}
+
+section a {
+  color: red;
+}
+
+section a:hover {
+  color: #FF8888;
+  text-decoration: overline;
+}
+
+#sections {
+  color: green;
+}
+
+nav a {
+  display: block;
+  color: white;
+  background-color: red;
+  padding: 0.5em;
+  margin: 0.25em 0;
+}
+
+input + label {
+  font-family: Optima, sans-serif;
+}
+
+input[value=""] + label {
+  color: red;
+  font-weight: bold;
+}
+
+input:not([value=""]) + label {
+  color: green;
+}
+
+input:checked + label {
+  color: blue;
+}

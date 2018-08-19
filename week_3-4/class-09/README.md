@@ -25,6 +25,6 @@ Today you will be adding an input form to your sales data page. Once the form is
  - As a user, I want to be able to update data that is already available on the page, so that I do not have to have the developer manually remove and rewrite data.
 
 ## Helpful Resources
-[Problem Domain Document](../support.md)
+[Problem Domain Document](../assets/support.md)
 
 [Assignment Assets](../assets)

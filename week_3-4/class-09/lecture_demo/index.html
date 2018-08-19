@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Position Example</h1>
+    </header>
+    <main>
+      <nav>
+        <a href="#" onmouseover="sayHello()">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+      </nav>
+      <section>
+        <p class="first">
+        Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the <a href="#">system J-25</a>. Tractor beam released, sir. Force field maintaining our hull integrity. Damage report? <a href="#" id="sections">Sections 27, 28 and 29</a> on decks four, five and six destroyed. Without our shields, at this range it is probable a photon detonation could destroy the Enterprise.
+        </p>
+
+        <p onclick="sayHello()">
+        Run a manual sweep of anomalous airborne or electromagnetic readings. Radiation levels in our atmosphere have increased by 3,000 percent. <a href="#">Electromagnetic and subspace wave fronts</a> approaching synchronization. What is the strength of the ship's deflector shields at maximum output? The wormhole's size and short period would make this a local phenomenon. Do you have sufficient data to compile a holographic simulation?
+        </p>
+
+        <img class="positioned-logo" src="images/acl-logo.png">
+
+        <img src="images/Logo.png"
+             onmouseover="this.src='images/Logo-over.png'"
+             onmouseout="this.src='images/Logo.png'">
+
+        <p>
+        We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the <a href="#">EM spectrum</a> ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+        </p>
+
+        <input type="text" onchange="sayHello()"> <label>Name</label><br>
+        <input type="checkbox" onclick="sayHello()"> <label>Send Me Spam</label><br>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; by Mark Fitzgerald</p>
+    </footer>
+  </body>
+</html>
