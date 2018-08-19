@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="form.js"></script>
+  </head>
+  <body>
+    <h1>JS Forms Example</h1>
+    <form id="main-form">
+      Store Name: <input name="storeName"><br>
+      Min. Customers: <input name="minCustomers"><br>
+      Max. Customers: <input name="maxCustomers"><br>
+      Avg. Sale / Customer: <input name="avgSale"><br>
+      <select name="something">
+        <option>Item 1</option>
+        <option>Item 2</option>
+        <option>Item 3</option>
+        <option>Item 4</option>
+      </select>
+      <input type="button" value="Add Store" onclick="addStore(this.form)">
+    </form>
+  </body>
+</html>
