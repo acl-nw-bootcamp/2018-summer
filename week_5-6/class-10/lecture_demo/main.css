@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #FFFFCC;
+  width: 300px;
+}
+
+section {
+  background-color: #FFCCFF;
+  width: calc(100% - 600px - 50px);
+}
+
+aside {
+  background-color: #CCFFFF;
+  width: 300px;
+}
+
+aside div {
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+}
+
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+
+  nav, section, aside {
+    width: 100%;
+  }
+
+  nav {
+    order: 1;
+  }
+
+  aside {
+    order: 2;
+  }
+
+  section {
+    order: 3;
+  }
+}
