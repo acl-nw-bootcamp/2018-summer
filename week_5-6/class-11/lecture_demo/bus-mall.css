@@ -1,0 +1,12 @@
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+
+#image-container img {
+  height: 250px;
+  margin: 0 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 15px #7777FF;
+  cursor: pointer;
+}
