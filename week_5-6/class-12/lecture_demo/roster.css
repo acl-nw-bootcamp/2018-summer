@@ -1,0 +1,23 @@
+body {
+  font-family: Optima, Arial, sans-serif;
+}
+
+#roster {
+  margin: 0 auto;
+  width: 500px;
+  border-collapse: collapse;
+}
+
+#roster td, #roster th {
+  height: 2em;
+  border-bottom: 1px solid blue;
+}
+
+#roster tr:hover {
+  background-color: #ddddFF;
+}
+
+#roster tr:first-of-type {
+  background-color: blue;
+  color: white;
+}
