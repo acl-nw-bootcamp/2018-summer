@@ -1,0 +1,56 @@
+body {
+  font-family: "Avenir", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0 30px 0 0;
+  list-style: none;
+}
+
+li {
+  border: 1px solid red;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+li:nth-of-type(odd) {
+  background-color: #FFDDDD;
+}
+
+li:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 120px;
+  box-shadow: 0 0 20px black;
+  float: left;
+  margin-right: 20px;
+}
+
+section {
+  width: 400px;
+}
+
+a {
+  color: red;
+}

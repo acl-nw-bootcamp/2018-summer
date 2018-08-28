@@ -1,0 +1,21 @@
+
+Student
+	Student Name
+	Image
+	GitHub account
+	Assignments
+		Assignment name
+		Assignment status (volunteer or drafted)
+		Class demoed
+
+Assignments
+	Name
+	Class
+
+
+Functions
+	Ask for GitHub account
+	Load selected student into section on right side
+	Update assignment status
+	Determine which class we are showing
+	Persist data between sessions
