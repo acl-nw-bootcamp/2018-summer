@@ -1,0 +1,50 @@
+body {
+  font-family: Optima, Arial, sans-serif;
+}
+
+#roster {
+  margin: 0 auto;
+  width: 500px;
+  border-collapse: collapse;
+}
+
+#roster td, #roster th {
+  height: 2em;
+  border-bottom: 1px solid blue;
+}
+
+#roster tr {
+  background-color: transparent;
+  transition: background-color 0.5s, color 0.5s 0.25s;
+  /* transition: property duration delay timing; */
+}
+
+#roster td {
+  transition: padding 0.5s 0.25s;
+}
+
+#roster td p {
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s 0.25s;
+}
+
+#roster tr:hover {
+  background-color: #3333FF;
+  color: white;
+  padding-left: 1em;
+}
+
+#roster tr:hover td:first-of-type {
+  padding-left: 1em;
+}
+
+#roster tr:hover p {
+  height: 38px;
+}
+
+#roster tr:first-of-type {
+  background-color: blue;
+  color: white;
+}

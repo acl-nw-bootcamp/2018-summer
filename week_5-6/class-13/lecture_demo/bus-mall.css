@@ -1,0 +1,31 @@
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+
+#image-container img {
+  height: 250px;
+  margin: 0 20px;
+  border-radius: 4px;
+  /* box-shadow: 0 0 15px #7777FF; */
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+#image-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.hide {
+  animation: 1s imageByeBye;
+}
+
+@keyframes imageByeBye {
+  from {
+    height: 250px;
+  }
+  to {
+    height: 0px;
+  }
+}
